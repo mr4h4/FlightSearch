@@ -37,33 +37,35 @@ Esto representa un problema típico de **búsqueda de rutas** en grafos, simplif
 ## ▶️ Ejemplo de uso
 
 ### Entrada del usuario
-Introduce tu ciudad de origen: Barcelona  
-Introduce tu ciudad destino: Munich  
+Introduce tu ciudad de origen: Barcelona    
+Introduce tu ciudad destino: Munich    
 
 ### Ejecución del programa
-Introduce tu ciudad de origen: Madrid
-Introduce tu ciudad destino: Barcelona
-Buscando vuelos MADRID >> BARCELONA...
-Encontrado vuelo directo de MADRID a BARCELONA.
+Introduce tu ciudad de origen: Madrid  
+Introduce tu ciudad destino: Barcelona  
+  
+Buscando vuelos MADRID >> BARCELONA...  
+Encontrado vuelo directo de MADRID a BARCELONA.  
 
 ---
 
 ### Otro ejemplo
-Introduce tu ciudad de origen: Bilbao
-Introduce tu ciudad destino: Múnich
-
-Buscando vuelos BILBAO >> MUNICH...
-Sin vuelos directos, buscando escalas...
-Vuelo con escala encontrado: BILBAO >> BARCELONA >> MUNICH  
+Introduce tu ciudad de origen: Bilbao  
+Introduce tu ciudad destino: Múnich  
+  
+Buscando vuelos BILBAO >> MUNICH...  
+Sin vuelos directos, buscando escalas...  
+Vuelo con escala encontrado: BILBAO >> BARCELONA >> MUNICH    
 
 ---
 
 ### Caso sin vuelos disponibles
-Introduce tu ciudad de origen: Murcia
-Introduce tu ciudad destino: Pionyang
-Buscando vuelos MURCIA >> PIONYANG...
-Sin vuelos directos, buscando escalas...
-Lo sentimos, no hay vuelos disponibles con conexión directa o con una sola escala 
+Introduce tu ciudad de origen: Murcia  
+Introduce tu ciudad destino: Pionyang  
+  
+Buscando vuelos MURCIA >> PIONYANG...  
+Sin vuelos directos, buscando escalas...  
+Lo sentimos, no hay vuelos disponibles con conexión directa o con una sola escala   
 
 ---
 
