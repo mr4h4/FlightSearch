@@ -1,0 +1,16 @@
+# Archivos y carpetas de Eclipse
+.classpath
+.project
+.settings/
+
+# Compilados
+bin/
+*.class
+
+# Empaquetados (permitimos .jar para subirlo a GitHub)
+*.war
+*.ear
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
