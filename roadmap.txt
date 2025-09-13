@@ -1,0 +1,52 @@
+📝 Ideas de nombres para el archivo
+	•	WISHLIST.md
+	•	TODO.md
+	•	ROADMAP.md
+	•	IMPROVEMENTS.md
+	•	NEXT_STEPS.md
+
+⸻
+
+📌 Wishlist de mejoras para el buscador de vuelos
+
+Este documento recoge las ideas y mejoras que se pueden implementar en el proyecto a futuro. El objetivo es refactorizar el código hacia un diseño más modular, legible y escalable, aplicando principios de POO y mejores prácticas en Java.
+
+🔧 Refactorización de la estructura
+	•	Separación de responsabilidades
+	•	Crear una clase BuscadorVuelos que contenga toda la lógica de búsqueda.
+	•	Dejar a la clase Main únicamente la interacción con el usuario (entrada/salida).
+	•	Uso de colecciones modernas
+	•	Reemplazar arrays por Map<String, List<String>> para manejar las conexiones de vuelos de forma más clara y eficiente.
+	•	Métodos más expresivos
+	•	Implementar métodos dedicados:
+	•	buscarDirecto()
+	•	buscarConEscala()
+	•	Facilita el mantenimiento y la lectura del código.
+	•	Gestión del Scanner
+	•	Usar try-with-resources para que el Scanner se cierre automáticamente y evitar fugas de recursos.
+	•	Normalización de entrada de usuario
+	•	Crear un método normalizar() que elimine acentos y convierta todo a minúsculas.
+	•	Evita errores al comparar cadenas.
+
+⸻
+
+✈️ Mejoras futuras (funcionalidades)
+	•	Soporte para múltiples escalas
+	•	Implementar un algoritmo de búsqueda en grafos (BFS) para encontrar rutas con más de una escala.
+	•	Ejemplo: Madrid → París → Berlín → Moscú.
+	•	Mostrar todas las rutas posibles
+	•	No solo la primera coincidencia, sino varias opciones ordenadas por número de escalas.
+	•	Optimización por coste/tiempo
+	•	Asignar precios o duraciones a cada vuelo y calcular la ruta más barata o más rápida.
+	•	Carga dinámica de datos
+	•	Extraer las conexiones a un archivo externo (JSON, CSV, BD) en vez de hardcodearlas en el código.
+	•	Tests unitarios
+	•	Añadir JUnit para probar buscarDirecto, buscarConEscala y normalizar().
+
+⸻
+
+🎯 Beneficios de esta refactorización
+	•	Código más claro y mantenible.
+	•	Diseño orientado a objetos desde el inicio.
+	•	Preparado para escalar con nuevas funcionalidades.
+	•	Mejor experiencia para el usuario final.
