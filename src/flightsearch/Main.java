@@ -61,33 +61,8 @@ public class Main {
 		int origen_id = -1;
 		boolean directo_encontrado = false;
 		
-		String[][] conexiones = { //El elemento [0] de cada array es el aeropuerto de origen
-				 // Grandes hubs
-			    {"madrid", "barcelona", "paris", "londres", "frankfurt", "roma", "newyork", "miami", "mexico", "buenosaires", "tokyo", "doha"},
-			    {"paris", "londres", "madrid", "barcelona", "frankfurt", "amsterdam", "roma", "lisboa", "dubai", "newyork", "montreal", "singapur"},
-			    {"londres", "paris", "madrid", "newyork", "losangeles", "dubai", "hongkong", "tokyo", "singapur", "berlin", "barcelona"},
-			    {"frankfurt", "madrid", "paris", "londres", "roma", "viena", "zurich", "istanbul", "dubai", "hongkong", "newyork"},
-			    {"istanbul", "madrid", "frankfurt", "paris", "roma", "dubai", "doha", "moscu", "ankara", "newyork", "tokyo"},
-
-			    // Hubs medianos
-			    {"barcelona", "madrid", "paris", "roma", "londres", "lisboa", "atenas", "berlin", "munich", "amsterdam"},
-			    {"roma", "madrid", "paris", "londres", "atenas", "estambul", "frankfurt", "barcelona"},
-			    {"amsterdam", "paris", "madrid", "londres", "bruselas", "berlin", "viena"},
-			    {"munich", "frankfurt", "paris", "madrid", "roma", "viena", "zurich"},
-			    {"lisboa", "madrid", "barcelona", "paris", "londres", "roma"},
-
-			    // Aeropuertos pequeños
-			    {"bilbao", "madrid", "barcelona", "paris"},
-			    {"malaga", "madrid", "barcelona", "londres"},
-			    {"sevilla", "madrid", "barcelona"},
-			    {"alicante", "madrid", "londres"},
-			    {"santander", "madrid", "barcelona"},
-			    {"oviedo", "madrid", "barcelona"},
-			    {"coruna", "madrid", "lisboa"},
-			    {"murcia", "madrid"},
-			    {"zaragoza", "barcelona", "paris"}
-			};
-		
+		String[][] conexiones = database.aeropuertos;
+				
 		//System.out.println(conexiones.length);
 		for (int i = 0; i < conexiones.length; i++) {
 			//System.out.println("i = " + i); //debugear busqueda

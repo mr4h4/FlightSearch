@@ -94,6 +94,6 @@ Este proyecto se puede extender de muchas formas:
 - ✅ **Tests automáticos**: añadir pruebas unitarias con JUnit para validar los métodos de búsqueda.  
 - ✅ **Internacionalización**: permitir entrada y salida en distintos idiomas.  
 
-
+- En el archivo **"roadmap.txt"** se encuentran varias mejoras e implementaciones posibles. Si te apetece probar a implementar alguna, siéntete totalmente libre de hacerlo y aportar tus ideas.
 
 

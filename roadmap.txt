@@ -21,7 +21,7 @@ Este documento recoge las ideas y mejoras que se pueden implementar en el proyec
 	•	Implementar métodos dedicados:
 	•	buscarDirecto()
 	•	buscarConEscala()
-	•	Facilita el mantenimiento y la lectura del código.
+	•	Facilitar el mantenimiento y la lectura del código.
 	•	Gestión del Scanner
 	•	Usar try-with-resources para que el Scanner se cierre automáticamente y evitar fugas de recursos.
 	•	Normalización de entrada de usuario
@@ -31,7 +31,6 @@ Este documento recoge las ideas y mejoras que se pueden implementar en el proyec
 ⸻
 
 ✈️ Mejoras futuras (funcionalidades)
-	•	Soporte para múltiples escalas
 	•	Implementar un algoritmo de búsqueda en grafos (BFS) para encontrar rutas con más de una escala.
 	•	Ejemplo: Madrid → París → Berlín → Moscú.
 	•	Mostrar todas las rutas posibles
